@@ -48,9 +48,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\AliMQWrapper.Application\AliMQWrapper.Application.csproj">
       <Project>{406e0d9a-5f20-49a4-b73e-93b9376b01d2}</Project>
       <Name>AliMQWrapper.Application</Name>
@@ -59,6 +56,9 @@
       <Project>{c4ba4cfd-8491-47eb-ac92-e304c8f8dd71}</Project>
       <Name>ons</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
